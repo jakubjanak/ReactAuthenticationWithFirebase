@@ -6,6 +6,7 @@ import Dashboard from "./Dashboard";
 import Login from "./Login"
 import PrivateRoute from "./PrivateRoute";
 import ForgotPassword from "./ForgotPassword";
+import UpdateProfile from "./UpdateProfile";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
           <Route path="/" element={
             <PrivateRoute>
               <Dashboard />
+            </PrivateRoute>
+          } />
+          <Route path="/update-profile" element={
+            <PrivateRoute>
+              <UpdateProfile />
             </PrivateRoute>
           } />
           <Route path="/signup" element={<Signup />} />

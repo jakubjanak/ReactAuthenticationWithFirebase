@@ -38,7 +38,7 @@ export default function Dashboard() {
               to="/update-profile"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              Update
+              Update profile
             </Link>
           </Button>
         </CardContent>
