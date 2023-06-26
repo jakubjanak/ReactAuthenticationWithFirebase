@@ -1,0 +1,13 @@
+.Signup {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem 2rem;
+}
+
+.SignupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
